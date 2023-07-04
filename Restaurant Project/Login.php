@@ -16,7 +16,7 @@
     <main>
         <section class="container">
             <h2 class="text-center">Login</h2>
-            <form>
+            <form onsubmit="handleLogin(event)">
                 <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" placeholder="Enter your email">
@@ -31,7 +31,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Login</button>
             </form>
-            <p class="text-center mt-3">Don't have an account? <a href="signup.html">Sign up</a></p>
+            <p class="text-center mt-3">Don't have an account? <a href="sign_up.php">Sign up</a></p>
         </section>
     </main>
 
@@ -42,5 +42,17 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        function handleLogin(event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Simulate a successful login
+            // You can replace this logic with your desired behavior
+            alert("Login successful!");
+
+            // Redirect the user to a different page
+            window.location.href = "restaurant.php";
+        }
+    </script>
 </body>
 </html>
