@@ -32,7 +32,7 @@
 
         <div class="container">
             <div class="signup-form">
-                <form action="signup_process.php" method="POST">
+                <form action="sign_up.php" method="POST">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" name="name" required>
@@ -49,7 +49,7 @@
                         <button type="submit" class="btn btn-primary">Sign Up</button>
                     </div>
                 </form>
-                <p class="text-center mt-3">Already have an account? <a href="login.html">Log in</a></p>
+                <p class="text-center mt-3">Already have an account? <a href="login.php">Log in</a></p>
             </div>
         </div>
     </main>
