@@ -66,7 +66,7 @@
                         <a class="nav-link" href="Review.php">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Menu_customization.php">menu customization</a>
+                        <a class="nav-link" href="Menu_customization.php">Menu Customization</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Sign_up.php">Sign Up</a>
